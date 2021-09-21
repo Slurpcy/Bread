@@ -19,7 +19,7 @@
 
 >`[p]` is your own prefix.
 
-`[p]repo add breadcogs https://github.com/Bakersbakebread/BreadCogsV3`    
+`[p]repo add breadcogs https://github.com/Slurpcy/BreadCogsV3`    
 
 `[p]cog install breadcogs <cog_name>`
 
