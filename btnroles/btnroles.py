@@ -43,8 +43,8 @@ class BtnRoles(commands.Cog):
         for label, config in yaml_file.items():
             b = Button(
                 label=label,
-                emoji=config.get("emoji"),
-                custom_id=get_custom_id(config.get("role_id")),
+                emoji=config.get(emoji),
+                custom_id=get_custom_id(config.get(role_id)),
                 style=config.get("style", 1))
             btns.append(b)
 
